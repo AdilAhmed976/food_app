@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+    /* border:  1px solid black; */
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: rgb(48,112,240);
+    color: white;
+  }
+  #options {
+    display: flex;
+    gap: 100px;
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+  }
+  a:hover {
+    color: black;
+  }
